@@ -5,8 +5,9 @@ const Welcome = () => {
     return (
         <View style={styles.container}>
             <View style={styles.containerLogo}>
-                <Image source={require('../../assets/logo.Login.png')}
-                style={{width:  '100%'}}
+                <Animatable.Image source={require('../../assets/logo.Login.png')}
+                animation="flipeInY"
+               style={{width:  '100%'}}
                 resizeMode="contain"
                 />
             </View>

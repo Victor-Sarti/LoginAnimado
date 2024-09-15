@@ -12,7 +12,7 @@ const Welcome = () => {
                 />
             </View>
 
-            <Animatable.View animation="fadeInUp" style={styles.containerForm}>
+            <Animatable.View delay={600} animation="fadeInUp" style={styles.containerForm}>
                 <Text style={styles.title}> Monitore, organize seus gastos de qualquer lugar !</Text>
                 <Text style={styles.text}>Faça seu Login</Text>
                

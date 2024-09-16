@@ -51,5 +51,10 @@ const styles = StyleSheet.create({
     paddingStart: '5%',
     paddingEnd: '5%'
    },
+   title:{
+    fontSize: 20,
+    marginTop: 28,
+   },
    
+
 })

@@ -61,6 +61,27 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     fontSize: 16 
    },
-   
+   button:{
+    backgroundColor: "#38a69d",
+    width: '100%',
+    borderRadius: 4,
+    paddingVertical: 8,
+    marginTop: 14,
+    justifyContent: 'center',
+    alignItems: 'center' 
+   },
+   buttonText: {
+    color: '#FFFF',
+    fontSize: 18,
+    fontWeight: 'bold'
+   },
+
+   buttonRegister:{
+    marginTop: 14,
+    alignSelf: 'center'  
+   },
+   registerText:{
+    color: '#A1A1A1'
+   }
 
 })

@@ -14,7 +14,7 @@ export default function SignIn(){
         <Text style={styles.title}> Senha</Text>
         <TextInput placeholder="Digite sua senha" style={styles.input} />
 
-      </Animatable.View>
+      
 
         <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}> Acessar</Text>
@@ -23,7 +23,7 @@ export default function SignIn(){
         <TouchableOpacity style={styles.buttonRegister}>
             <Text style={styles.registerText}> Não possui uma conta ? Cadastre-se</Text>
         </TouchableOpacity>
-      
+  </Animatable.View>
         </View>
       );
 }
@@ -42,6 +42,14 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: 'bold',
     color: '#FFFF'
+   },
+   containerForm:{
+    backgroundColor: '#FFFF',
+    flex: 1,
+    borderTopLeftRadius: 25,
+    borderTopRightRadius: 25,
+    paddingStart: '5%',
+    paddingEnd: '5%'
    },
    
 })

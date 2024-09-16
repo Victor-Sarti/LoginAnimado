@@ -55,6 +55,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     marginTop: 28,
    },
+   input:{
+    borderBottomWidth: 1,
+    height: 40,
+    marginBottom: 12,
+    fontSize: 16 
+   },
    
 
 })

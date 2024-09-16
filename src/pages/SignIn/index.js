@@ -16,6 +16,13 @@ export default function SignIn(){
 
       </Animatable.View>
 
+        <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}> Acessar</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.buttonRegister}>
+            <Text style={styles.registerText}> Não possui uma conta ? Cadastre-se</Text>
+        </TouchableOpacity>
       
         </View>
       );

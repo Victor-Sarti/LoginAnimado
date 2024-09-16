@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TextInput, TouchableOpacity } from "react-nativ
 import * as Animatable from 'react-native-animatable'
 export default function SignIn(){
     return (
-        <View styles={styles.container}>
+        <View style={styles.container}>
           <Animatable.View animation="fadeInLeft" delay={500} style={styles.containerHeader}>
             <Text style={styles.message}> Bem-Vindo(a)</Text>
           </Animatable.View>
@@ -29,9 +29,8 @@ export default function SignIn(){
 }
  
 const styles = StyleSheet.create({
-    container:{
-
-    }
-}
-    
-)
+   container:{
+    flex: 1,
+    backgroundColor: '#38a69d'
+   },
+})
